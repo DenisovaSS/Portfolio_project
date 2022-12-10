@@ -1,10 +1,29 @@
 /*font-family: 'Playfair Display', serif;
-font-family: 'Poppins', sans-serif;*/
-h1 {
-  color: green;
-  font-family: "Poppins", sans-serif;
+font-family: 'Poppins', sans-serif;
+https://visionary-smakager-051a4c.netlify.app/*/
+body {
+  margin-top: 80px;
+}
+.col {
+  margin: 10px;
+}
+p,
+h1,
+h2 {
+  text-align: center;
+}
+img {
+  display: block;
+  margin: 0 auto;
 }
 p {
-  color: blue;
-  font-family: "Playfair Display", serif;
+  background: var(--secondary-color);
+  padding: 20px;
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: center;
+}
+.container {
+  margin: 10px;
 }
