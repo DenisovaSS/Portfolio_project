@@ -25,7 +25,7 @@ h2 {
 }
 img {
   display: block;
-  margin: 0 auto;
+  margin: 10px auto;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 .text {
@@ -57,4 +57,28 @@ img {
 }
 .hello {
   font-size: 48px;
+}
+@media (max-width: 590px) {
+  h1 {
+    font-size: 48px;
+  }
+  h3 {
+    font-size: 12px;
+  }
+  h2 {
+    font-size: 24px;
+  }
+  .text {
+    font-size: 12px;
+    line-height: 1;
+  }
+  .weather_about {
+    margin-top: 10px;
+    padding: 10px;
+  }
+  .project-link {
+    display: block;
+    text-align: center;
+    margin: 0 10px;
+  }
 }
