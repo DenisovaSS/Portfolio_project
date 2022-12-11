@@ -1,6 +1,10 @@
 /*font-family: 'Playfair Display', serif;
 font-family: 'Poppins', sans-serif;
 https://visionary-smakager-051a4c.netlify.app/*/
+:root {
+  --text-style: "Playfair Display", serif;
+  --background-color: #f5f2fe;
+}
 body {
   margin: 80px auto;
 }
@@ -12,9 +16,12 @@ h1,
 h2,
 h3 {
   text-align: center;
+  font-family: "Poppins", sans-serif;
 }
 h1 {
   font-size: 96px;
+  font-family: var(--text-style);
+  font-weight: 700;
 }
 h3 {
   font-size: 24px;
@@ -29,7 +36,7 @@ img {
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 .text {
-  background: #f5f2fe;
+  background: var(--background-color);
   padding: 20px;
   border-radius: 4px;
   font-size: 18px;
@@ -38,7 +45,7 @@ img {
 }
 .row {
   margin: 40px 10px;
-  background: #f5f2fe;
+  background: var(--background-color);
   padding: 20px 10px;
 }
 .email-link {
