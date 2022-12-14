@@ -40,11 +40,18 @@ h3 {
 h2 {
   font-size: 48px;
 }
+.section-about img {
+  width: 50%;
+  display: block;
+  margin: 0 auto;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
 img {
   display: block;
   margin: 10px auto;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
+
 .text {
   background: var(--background-color);
   padding: 20px;
@@ -75,7 +82,11 @@ img {
 .hello {
   font-size: 48px;
 }
+
 @media (max-width: 590px) {
+  .section-about {
+    text-align: center;
+  }
   h1 {
     font-size: 48px;
   }
