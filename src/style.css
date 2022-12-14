@@ -18,8 +18,18 @@ h3 {
   text-align: center;
   font-family: "Poppins", sans-serif;
 }
+.section-about h1 {
+  font-size: 63px;
+  font-family: var(--text-style);
+  font-weight: 700;
+}
 h1 {
   font-size: 96px;
+  font-family: var(--text-style);
+  font-weight: 700;
+}
+.section-about h3 {
+  font-size: 20px;
   font-family: var(--text-style);
   font-weight: 700;
 }
@@ -39,7 +49,7 @@ img {
   background: var(--background-color);
   padding: 20px;
   border-radius: 4px;
-  font-size: 18px;
+  font-size: 14px;
   line-height: 1.5;
   text-align: center;
 }
