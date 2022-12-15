@@ -28,6 +28,11 @@ h1 {
   font-family: var(--text-style);
   font-weight: 700;
 }
+.section-work h1 {
+  font-size: 45px;
+  font-family: var(--text-style);
+  font-weight: 700;
+}
 .section-about h3 {
   font-size: 20px;
   font-family: var(--text-style);
