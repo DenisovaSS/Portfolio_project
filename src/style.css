@@ -79,8 +79,7 @@ img {
   text-decoration: underline;
 }
 .weather_about {
-  margin-top: 100px;
-  padding: 20px;
+  flex: 1 30px;
 }
 .hello {
   font-size: 48px;
