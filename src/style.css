@@ -78,13 +78,40 @@ img {
 .email-link:hoover {
   text-decoration: underline;
 }
-.weather_about {
-  flex: 1 30px;
-}
+/*.weather_about {
+  
+}*/
 .hello {
   font-size: 48px;
 }
+.logo {
+  box-shadow: none;
+  max-height: 40px;
+  height: auto;
+}
+nav {
+  padding: 20px 0;
+}
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+nav li {
+  display: inline;
+  line-height: 40px;
+  margin-left: 15px;
+}
+nav a {
+  font-family: "Poppins", sans-serif;
+  text-decoration: underline;
+  color: #272142;
+  transition: all 100ms ease-in-out;
+}
 
+nav a:hover,
+nav li.active a {
+  color: #db5f29;
+}
 @media (max-width: 590px) {
   .section-about {
     text-align: center;

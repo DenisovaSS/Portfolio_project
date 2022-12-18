@@ -32,41 +32,21 @@
     <title>Homepage</title>
   </head>
   <body>
-    <nav
-      class="navbar navbar-expand-lg fixed-top"
-      style="background-color: #db5f29"
-    >
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">Svitlana Denysova</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="about_me.html">About me</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="work_page.html">My works</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contact_page.html">Contact me</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
+    <div class="container">
+      <nav class="d-flex justify-content-between">
+        <a href="about_me.html">
+          <img class="logo d-block d-md-none" src="images/sd.png" alt="" />
+          <p class="d-none d-md-block">Svitlana Denysova</p>
+        </a>
+        <ul>
+          <li class="active"><a href="index.html">Homepage </a></li>
+          <li><a href="about_me.html"> About me </a></li>
+          <li><a href="work_page.html"> Work </a></li>
+          <li><a href="contact_page.html"> Contact me </a></li>
+        </ul>
+      </nav>
+    </div>
+
     <p class="hello">👋 Hi I am</p>
     <h1>Svitlana Denysova</h1>
     <h3>🏠Front-end developer, based in Ukraine</h3>
