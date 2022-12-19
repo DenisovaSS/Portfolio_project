@@ -147,6 +147,10 @@ footer .contact-box {
 footer .contact-box p {
   margin: 0;
 }
+.sing {
+  font-size: 12px;
+  opacity: 0.6;
+}
 @media (max-width: 900px) {
   .section-about {
     text-align: center;
